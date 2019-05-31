@@ -18,8 +18,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="profile.html">Profile</a>
@@ -27,7 +27,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="details.html">Details</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="contact.html">Contact Me</a>
                 </li>
                 <li class="nav-item">
@@ -50,22 +50,34 @@
     <br>
     <section id="square">
     <div class="container">
-    
     <address>
-        <h1>Alex Jacobo Contact Information</h1><br>
-        <b>Website:</b><br>
-        www.alexjacobo.com<br><br>
-        <b>Location:</b><br>
-        San Mateo, CA 94403<br><br>
-        <b>Phone:</b><br>
-        p. 650-430-5317<br><br>
-        <br>
-        <b>Email:</b><br>
-        alexjacobo@icloud.com<br><br>
+        <h1>Contact Form- Your information Please</h1><br>
+        <div class="container">
+            
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="name" class="form-control" id="name" placeholder="Enter name">
+                </div>
+                <div class="form-group">
+                    <label for="em">Email:</label>
+                    <input type="email" class="form-control" id="em" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="ph">Password:</label>
+                    <input type="phone" class="form-control" id="ph" placeholder="Enter phone">
+                </div>
+                <div class="form-check">
+                    <label><input class="form-check-input" type="radio" checked>From San Francisco</label>
+                </div>
+                <div class="form-check">
+                    <label><input class="form-check-input" type="radio">Not From San Francisco</label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
     
-
     </address>
-
     </div>
     </section>
     <!-- Optional JavaScript -->

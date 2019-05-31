@@ -1,0 +1,24 @@
+#title {
+    text-align: center;
+    margin-top: 3em;
+}
+
+#square {
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    border: solid;
+    
+}
+
+
+
+#changeColorDiv {
+    text-align: center;
+    margin: auto;
+}
+
+#img-fluid {
+    width: 100% \9;
+}
